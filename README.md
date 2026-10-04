@@ -1,5 +1,9 @@
 # nimbus-git
 
+![tests](https://github.com/WuxieLUK/nimbus-git/actions/workflows/tests.yml/badge.svg)
+![python](https://img.shields.io/badge/python-3.10%2B-blue)
+![license](https://img.shields.io/github/license/WuxieLUK/nimbus-git)
+
 一个 **从零实现 Git** 的开发者工具，纯 Python 标准库，**零运行时依赖**。
 不调用 `git` 二进制，自己完成对象模型、索引文件、引用、工作区快照、提交图遍历和 Myers diff。
 
